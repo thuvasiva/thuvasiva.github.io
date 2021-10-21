@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <link rel = "stylesheet" href=reset.css type="text/css">
+        <link rel = "stylesheet" href=miniproject.css type="text/css"> 
+    </head>
+    <body>
+        <div id="navbar">
+        <header>
+            <hgroup>
+                <h1>Thuvaragan Sivayoganathan</h1>
+                <h1>Blog Login</h1>
+            </hgroup>
+        </header>
+        </div>
+        <article>
+        <form id="loginform" method = POST action="login.php">
+            <fieldset>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="pword">Password </label>
+                <br>
+                <input type="password" id="pword" name="pword" required>
+                <br>
+                <input id = "login" type="submit" value="Log In">
+            </fieldset>
+        </form>
+        </article>
+        <footer>
+            <a href="#navbar">Return to top</a>
+            <a href="homepage.php">Return to home</a>
+            <p>Website created by Thuvaragan Sivayoganathan in 2021</p>
+        </footer>
+    </body>
+</html>
+
