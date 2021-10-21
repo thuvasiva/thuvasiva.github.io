@@ -1,0 +1,7 @@
+html, body, h1, h2, h3, h4, p, header,section, article, footer, figure, figcaption,hgroup, nav,ul,aside, a, fieldset, input{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+   }

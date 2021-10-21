@@ -1,0 +1,325 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*Main Body*/
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, lightblue  0%, rgb(5, 5, 175) 200%);
+}
+
+/*Div customization */
+div#Education{
+    background-color: lightblue;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+div#Experience{
+    background-color: lightcoral;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+div#SkillsAndAchievements{
+    background-color: lightblue;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+div#navbar{
+    position: relative;
+    background-color: rgb(61, 61, 61);
+    color:azure;
+    padding: 1%;
+}
+
+/*Customization of components within navbar div*/
+header{
+    text-align: center;
+    font-size: 110%;
+    margin-bottom: 0.8%;
+}
+
+nav{
+    text-align: center;
+}
+
+/*Article customization (general)*/
+article{
+    background-color: azure;
+    margin: 2% 2% 2% 2%;
+    border-radius: 5%;
+    padding: 3%;
+    border-width: 2%; 
+    overflow: auto;
+}
+
+article p{
+    margin: 1%;
+}
+
+article section{
+    margin: 1%;
+}
+
+article ul{
+    margin: 1%;
+    list-style-type:circle;
+}
+
+/*About Me article customization*/
+article #AboutMe figure{
+    width: 20%;
+    float: left;
+    margin-right: 2%;
+}
+
+/*Image and Figure Customization */
+article #AboutMe img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+article img#saischool{
+    width: 50%;
+}
+
+article img#football{
+    width: 40%;
+}
+
+aside figure#instagram{
+    float: left;
+    width: 49%;
+    margin-right: 1%;
+}
+
+aside figure#mail{
+    float: right;
+    width: 49%;
+    margin-left: 1%;
+}
+
+aside#Contact figure#instagram img{
+    margin-top: 1%;
+    width: 9%;
+    float: right;
+}
+
+aside#Contact figure#mail img{
+    margin-top: 1%;
+    width: 12%;
+    float: left;
+}
+
+/*Figcaption customization*/
+figcaption{
+    font-style: italic;
+}
+
+/*Aside customization */
+aside#login{
+    text-align: center;
+    margin: 2%;
+    background-color: lightgray;
+    border-radius: 10%;
+}
+
+aside#Contact{
+    background-color: lightcoral;
+    margin: 2% 2% 2% 2%;
+    text-align: center;
+    border-radius: 10%;
+    overflow: auto;
+}
+
+aside#AddPost{
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    
+}
+
+aside#AddPost input{
+    background-color: lightcoral;
+    padding: 7%;
+}
+
+aside#AdvancedSearch{
+    position: absolute;
+    top: 20%;
+    right: 2%;
+   
+}
+
+aside#AdvancedSearch input{
+    background-color: lightcoral;
+    padding: 4%;
+}
+
+aside#Return{
+    position: absolute;
+    top: 20%;
+    left: 1%;
+}
+
+aside#Return input{
+    background-color: lightcoral;
+    padding: 9%;
+}
+
+/*Footer Customization */
+footer{
+    background-color: rgb(61, 61, 61);
+    color:azure;
+    padding: 1%;
+}
+
+/*Form customization(General)*/
+form{
+    text-align: center;
+    font-weight: bold;
+    border: 0.5em black solid;
+    background-color: lightcoral;
+    padding: 1%;
+    margin: 2% 10% 2% 10%;
+}
+
+form input{
+    width: 20%;
+    padding: 2%;
+    border: 0.2em lightskyblue solid;
+    margin: 2%;
+}
+
+form legend{
+    font-size: 150%;
+}
+
+/*Form customization specific to Blog Form*/
+form#BlogForm{
+    text-align: left;
+}
+
+form#BlogForm #title{
+    padding: 1%;
+}
+
+form#BlogForm #maintext{
+    width: 80%;
+    margin: 2%;
+    border: 0.2em lightskyblue solid;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form #SubmitAndClear input{
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+form#Submit input#finalsubmit{
+    background-color: rgb(61, 61, 61);
+    color:white;
+}
+
+form#selector input{
+    background-color: rgb(61, 61, 61);
+    color:white;
+}
+
+/*Form customization specific to Login form*/
+form input#login{
+    background-color: rgb(61, 61, 61);
+    color: azure;
+}
+
+/*Form customization specific to selector form*/
+form#selector select{
+    width: 20%;
+}
+
+form#selector input{
+    padding: 0;
+}
+
+/*Tables*/
+table{
+    border: 0.1em solid black;
+    padding: 1%;
+}
+
+/*Font Sizes*/
+h1{
+    font-size: 150%;
+}
+
+h2{
+    font-size: 130%;
+    text-decoration: underline;
+}
+h3{
+    font-size: 110%;
+}
+h4{
+    font-size: 90%;
+    color: lightcoral;
+}
+
+/*Specific Font Size*/
+article #AboutMe h2{
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+aside#login h2{
+    margin-bottom: 1%;
+}
+
+/*Hyperlink customization */
+a{
+    color:azure;
+    text-decoration: none;
+}
+
+a:hover{
+    color:lightcoral;
+}
+
+nav a{
+    padding: 1%;
+} 
+
+article #LiterateDocument a{
+    color:rgb(61, 61, 61);
+}
+
+aside#login a{
+    color:darkblue;
+}
+
+footer a{
+    text-decoration: underline;
+}
+
+/*Blog Post Customization*/
+
+.Post{
+    background-color: lightcoral;
+    padding: 1%;
+}
+
+#seperator{
+    border: 0.3em solid black;
+    background-color: black;
+}
+
+#posttitle{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#postdate{
+    font-style: italic;
+}
