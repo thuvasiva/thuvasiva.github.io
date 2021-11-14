@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Account
+comment1.params=balance
+comment1.target=Account(double)
+comment2.params=amount
+comment2.target=void\ payInMoney(double)
+comment3.params=amount
+comment3.target=void\ payOutMoney(double)
+comment4.params=
+comment4.target=double\ getBalance()
+numComments=5

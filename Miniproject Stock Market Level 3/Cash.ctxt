@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Cash
+comment1.params=value\ name\ inflation
+comment1.target=Cash(double,\ java.lang.String,\ double)
+comment2.params=
+comment2.target=void\ changeFinancialValueDaily()
+comment3.params=inflationRate
+comment3.target=void\ changeInflationRate(double)
+comment4.params=
+comment4.target=double\ getInflationRate()
+numComments=5
