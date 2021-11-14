@@ -303,12 +303,8 @@ footer a{
     text-decoration: underline;
 }
 
-#PointlessQuizIntro a{
-    color:rgb(61,61,61);
-}
-
-#StockMarketSimulator a{
-    color:rgb(61,61,61);
+article #PointlessQuizIntro a{
+    color:rgb(61, 61, 61);
 }
 
 /*Blog Post Customization*/
