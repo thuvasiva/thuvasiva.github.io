@@ -119,13 +119,6 @@ figcaption{
 }
 
 /*Aside customization */
-aside#login{
-    text-align: center;
-    margin: 2%;
-    background-color: lightgray;
-    border-radius: 10%;
-}
-
 aside#Contact{
     background-color: lightcoral;
     margin: 2% 2% 2% 2%;
@@ -134,114 +127,11 @@ aside#Contact{
     overflow: auto;
 }
 
-aside#AddPost{
-    position: absolute;
-    top: 20%;
-    left: 1%;
-    
-}
-
-aside#AddPost input{
-    background-color: lightcoral;
-    padding: 7%;
-}
-
-aside#AdvancedSearch{
-    position: absolute;
-    top: 20%;
-    right: 2%;
-   
-}
-
-aside#AdvancedSearch input{
-    background-color: lightcoral;
-    padding: 4%;
-}
-
-aside#Return{
-    position: absolute;
-    top: 20%;
-    left: 1%;
-}
-
-aside#Return input{
-    background-color: lightcoral;
-    padding: 9%;
-}
-
 /*Footer Customization */
 footer{
     background-color: rgb(61, 61, 61);
     color:azure;
     padding: 1%;
-}
-
-/*Form customization(General)*/
-form{
-    text-align: center;
-    font-weight: bold;
-    border: 0.5em black solid;
-    background-color: lightcoral;
-    padding: 1%;
-    margin: 2% 10% 2% 10%;
-}
-
-form input{
-    width: 20%;
-    padding: 2%;
-    border: 0.2em lightskyblue solid;
-    margin: 2%;
-}
-
-form legend{
-    font-size: 150%;
-}
-
-/*Form customization specific to Blog Form*/
-form#BlogForm{
-    text-align: left;
-}
-
-form#BlogForm #title{
-    padding: 1%;
-}
-
-form#BlogForm #maintext{
-    width: 80%;
-    margin: 2%;
-    border: 0.2em lightskyblue solid;
-    font-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-form #SubmitAndClear input{
-    background-color: rgb(61, 61, 61);
-    color: white;
-}
-
-form#Submit input#finalsubmit{
-    background-color: rgb(61, 61, 61);
-    color:white;
-}
-
-form#selector input{
-    background-color: rgb(61, 61, 61);
-    color:white;
-}
-
-/*Form customization specific to Login form*/
-form input#login{
-    background-color: rgb(61, 61, 61);
-    color: azure;
-}
-
-/*Form customization specific to selector form*/
-form#selector select{
-    width: 20%;
-}
-
-form#selector input{
-    padding: 0;
 }
 
 /*Tables*/
@@ -307,23 +197,6 @@ article #PointlessQuizIntro a{
     color:rgb(61, 61, 61);
 }
 
-/*Blog Post Customization*/
-
-.Post{
-    background-color: lightcoral;
-    padding: 1%;
-}
-
-#seperator{
-    border: 0.3em solid black;
-    background-color: black;
-}
-
-#posttitle{
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-#postdate{
-    font-style: italic;
+article #StockMarketSimulator a{
+    color:rgb(61, 61, 61);
 }
